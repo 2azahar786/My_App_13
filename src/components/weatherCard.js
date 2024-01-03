@@ -98,7 +98,7 @@ const Weathercard = ({ tempInfo }) => {
             </artical>
         </div>
     )
-}
+};
 
 
-export default Weathercard
+export default Weathercard;
