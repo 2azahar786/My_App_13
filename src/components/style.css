@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+};
 
 
 :root {
@@ -14,12 +14,12 @@
   --dur: 0.3s;
   --color-dark: #2f2f2f;
   --color-light: #fff;
-  --color-brand: #57bd84;
+  --color-brand: #0c1410;
   --font-fam: "Lato", sans-serif;
   --height: 5rem;
   --btn-width: 6rem;
   --bez: cubic-bezier(0, 0, 0.43, 1.49);
-}
+};
 
 body {
   background-color: #f5f5f5;
@@ -28,7 +28,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-}
+};
 
 .widget {
   display: flex;
@@ -39,7 +39,9 @@ body {
   border-radius: 20px;
   box-shadow: 0 27px 55px 0 rgba(0, 0, 0, 0.3),
     0 17px 17px 0 rgba(0, 0, 0, 0.15);
-}
+};
+
+
 .widget .weatherIcon {
   flex: 1 100%;
   height: 50%;
@@ -51,7 +53,7 @@ body {
   align-items: center;
   justify-content: space-around;
   font-size: 100px;
-}
+};
 
 .widget .weatherInfo {
   flex: 0 0 70%;
@@ -60,7 +62,8 @@ body {
   display: flex;
   align-items: center;
   color: white;
-}
+};
+
 .widget .weatherInfo .temperature {
   flex: 0 0 40%;
   width: 100%;
@@ -68,7 +71,8 @@ body {
   display: flex;
   justify-content: space-around;
   margin-right: 20px;
-}
+};
+
 .widget .weatherInfo .description {
   flex: 0 60%;
   display: flex;
@@ -76,15 +80,18 @@ body {
   width: 100%;
   height: 100%;
   justify-content: center;
-}
+};
+
 .widget .weatherInfo .description .weatherCondition {
   text-transform: uppercase;
   font-size: 35px;
   font-weight: 100;
-}
+};
+
 .widget .weatherInfo .description .place {
   font-size: 15px;
-}
+};
+
 .widget .date {
   flex: 0 0 30%;
   height: 40%;
@@ -96,7 +103,7 @@ body {
   font-size: 30px;
   font-weight: 800;
   text-align: center;
-}
+};
 
 .widget .extra-temp {
   flex: 1 100%;
@@ -108,12 +115,12 @@ body {
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   font-size: 100px;
-}
+};
 
 .widget .extra-temp p {
   font-size: 25px;
   font-weight: 600;
-}
+};
 
 .temp-info-minmax,
 .weather-extra-info,
@@ -124,7 +131,7 @@ body {
   align-items: center;
   color: #70c1b3;
   /* background-color: blanchedalmond; */
-}
+};
 
 .widget .extra-temp .extra-info-leftside {
   text-align: left;
@@ -132,7 +139,7 @@ body {
   text-transform: capitalize;
   color: #080705;
   font-size: 15px;
-}
+};
 
 /* input search button style  */
 
@@ -141,7 +148,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-}
+};
 
 .searchTerm {
   width: 50%;
@@ -152,11 +159,11 @@ body {
   border-radius: 5px 0 0 5px;
   outline: none;
   font-size: 18px;
-}
+};
 
 .searchTerm:focus {
   color: #00b4cc;
-}
+};
 
 .searchButton {
   width: 80px;
@@ -170,11 +177,11 @@ body {
   font-size: 20px;
   outline: none;
   font-size: 16px;
-}
+};
 
 .searchButton:hover {
   background-color: #17b8ce;
-}
+};
 
 .wrap {
   display: flex;
@@ -182,7 +189,9 @@ body {
   text-align: center;
   margin-top: -150px;
   margin-bottom: 50px;
-}
+};
+
+
 
 /*Resize the wrap to see the search bar change!*/
 /* .wrap {
